@@ -1,0 +1,11 @@
+------------------------------------------------------------------------
+r81555 | bigzero | 2008-09-08 22:59:00 -0400 (Mon, 08 Sep 2008) | 3 lines
+Changed paths:
+   M /trunk/AutoProfitX/AutoProfitX.lua
+   M /trunk/AutoProfitX/AutoProfitX.toc
+   M /trunk/AutoProfitX/proficiencies.lua
+
+AutoProfitX:
+- Changed the way APX check item usability. Only checks item equip location if the item is an offhand weapon.
+- Should fix the issue where APX was selling soulbound crossbows. There was an undocumented change in WoW API for crossbow ItemEquipLoc. Changed from INVTYPE_RANGED to INVTYPE_RANGEDRIGHT
+------------------------------------------------------------------------

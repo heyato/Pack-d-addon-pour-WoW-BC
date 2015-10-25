@@ -1,0 +1,19 @@
+------------------------------------------------------------------------
+r44693 | ckknight | 2007-07-24 05:34:23 +0200 (Tue, 24 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceEvent-2.0/AceEvent-2.0.lua
+
+.AceEvent-2.0 - set .currentEventUID for OnUpdate.
+------------------------------------------------------------------------
+r44572 | ckknight | 2007-07-23 05:06:14 +0200 (Mon, 23 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceEvent-2.0/AceEvent-2.0.lua
+
+.AceEvent-2.0 - fix a typo (self => AceEvent)
+------------------------------------------------------------------------
+r44571 | ckknight | 2007-07-23 05:03:32 +0200 (Mon, 23 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceEvent-2.0/AceEvent-2.0.lua
+
+.AceEvent-2.0 - add AceEvent.currentEventUID, which is a unique number for the current event that is firing.
+------------------------------------------------------------------------

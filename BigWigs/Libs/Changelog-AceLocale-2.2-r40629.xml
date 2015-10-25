@@ -1,0 +1,83 @@
+------------------------------------------------------------------------
+r40629 | ckknight | 2007-06-19 02:46:26 +0200 (Tue, 19 Jun 2007) | 2 lines
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+.AceLocale-2.2 - some memory optimizations.
+- unit tests are at the bottom, commented out - note: assumes enUS.
+------------------------------------------------------------------------
+r40604 | ckknight | 2007-06-19 00:40:22 +0200 (Tue, 19 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+.AceLocale-2.2 - remove a bunch of global references
+------------------------------------------------------------------------
+r40603 | ckknight | 2007-06-19 00:38:16 +0200 (Tue, 19 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+.AceLocale-2.2 - rearrange some lines
+------------------------------------------------------------------------
+r39907 | ckknight | 2007-06-14 20:59:51 +0200 (Thu, 14 Jun 2007) | 2 lines
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+.AceLocale-2.2 - change warnings to errors.
+Note: This doesn't do any metatable caching, as apparently that causes errors or something in the upgrade path.
+------------------------------------------------------------------------
+r39902 | kaelten | 2007-06-14 20:04:29 +0200 (Thu, 14 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+Ace2 - Reverting AceLocale Changes pending further testing.
+------------------------------------------------------------------------
+r39877 | ckknight | 2007-06-14 16:51:24 +0200 (Thu, 14 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+.AceLocale-2.2 - optimization
+------------------------------------------------------------------------
+r39874 | ckknight | 2007-06-14 16:38:23 +0200 (Thu, 14 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+.AceLocale-2.2 - change how errors are fired, slightly.
+------------------------------------------------------------------------
+r39868 | ckknight | 2007-06-14 15:55:01 +0200 (Thu, 14 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+.AceLocale-2.2 - fix potential bug.
+------------------------------------------------------------------------
+r39855 | ckknight | 2007-06-14 13:18:00 +0200 (Thu, 14 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+.AceLocale-2.2 - optimization by caching metatables and metamethods.
+------------------------------------------------------------------------
+r39853 | ckknight | 2007-06-14 12:56:48 +0200 (Thu, 14 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.lua
+
+.AceLocale-2.2 - for missing translations, raise an error through geterrorhandler()(ret) instead of just a normal error("text"). This means AceLibrary("Babble-Boss-2.2")["Some guy"] will return "Some guy" if that's unknown, but raise an error in the process.
+------------------------------------------------------------------------
+r36325 | ckknight | 2007-05-22 11:06:03 +0200 (Tue, 22 May 2007) | 2 lines
+Changed paths:
+   M /trunk/Ace2/Ace2.toc
+   M /trunk/Ace2/AceAddon-2.0/AceAddon-2.0.lua
+   M /trunk/Ace2/AceAddon-2.0/AceAddon-2.0.toc
+   M /trunk/Ace2/AceComm-2.0/AceComm-2.0.toc
+   M /trunk/Ace2/AceConsole-2.0/AceConsole-2.0.toc
+   M /trunk/Ace2/AceDB-2.0/AceDB-2.0.toc
+   M /trunk/Ace2/AceDebug-2.0/AceDebug-2.0.toc
+   M /trunk/Ace2/AceEvent-2.0/AceEvent-2.0.toc
+   M /trunk/Ace2/AceHook-2.1/AceHook-2.1.toc
+   M /trunk/Ace2/AceLibrary/AceLibrary.toc
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.toc
+   M /trunk/Ace2/AceModuleCore-2.0/AceModuleCore-2.0.toc
+   M /trunk/Ace2/AceOO-2.0/AceOO-2.0.toc
+   M /trunk/Ace2/AceTab-2.0/AceTab-2.0.toc
+
+Ace2 - bump to 20100
+
+------------------------------------------------------------------------

@@ -1,0 +1,31 @@
+﻿## Interface: 20100
+
+## Title: Big Wigs [|cffeda55fBlack Temple|r]
+## Title-zhCN: Big Wigs [|cffeda55f黑暗神殿|r]
+## Title-frFR: Big Wigs [|cffeda55fTemple noir|r]
+## Notes: Big Wigs Black Temple Modules
+## Notes-zhCN: Big Wigs 黑暗神殿模块
+## Notes-frFR: Modules Big Wigs concernant le Temple noir.
+## Author: Funkydude, Rabbit
+## X-Credits: Zonker, Daemona, kirr, Andii
+## Version: 2.0
+## LoadOnDemand: 1
+
+## X-Website: http://www.wowace.com/index.php/BigWigs
+## X-Category: Raid
+## X-RelSite-WoWI: 5086
+## X-RelSite-Curse: 4356
+## X-AceForum: 1222
+
+## X-BigWigs-LoadInZone: Black Temple
+
+## Dependencies: BigWigs
+
+Najentus.lua
+Gurtogg.lua
+Supremus.lua
+Teron.lua
+Souls.lua
+Shahraz.lua
+Council.lua
+Illidan.lua

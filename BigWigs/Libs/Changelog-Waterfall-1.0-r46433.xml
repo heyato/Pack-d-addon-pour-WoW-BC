@@ -1,0 +1,87 @@
+------------------------------------------------------------------------
+r46433 | nargiddley | 2007-08-13 13:29:35 +0200 (Mon, 13 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Clear focus of visible textboxes when clicking a keybind
+------------------------------------------------------------------------
+r46346 | nargiddley | 2007-08-12 13:31:30 +0200 (Sun, 12 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: nil returned from a keybind get will clear it
+------------------------------------------------------------------------
+r46271 | nargiddley | 2007-08-11 14:55:01 +0200 (Sat, 11 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Calling :Open(id, pane) when the window is already open will change pane
+- Bugfix for confirm on Buttons
+------------------------------------------------------------------------
+r45628 | nargiddley | 2007-08-03 13:42:41 +0200 (Fri, 03 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Control limit raised to 250
+------------------------------------------------------------------------
+r45574 | samuelcup | 2007-08-02 14:00:54 +0200 (Thu, 02 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: added zhCN locale
+------------------------------------------------------------------------
+r45565 | nargiddley | 2007-08-02 04:47:32 +0200 (Thu, 02 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Limit right pane to 200 controls to prevent locking up WoW for long periods when processing
+------------------------------------------------------------------------
+r45563 | nargiddley | 2007-08-02 03:55:54 +0200 (Thu, 02 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Tree view section entries disable properly
+------------------------------------------------------------------------
+r45547 | nargiddley | 2007-08-02 01:32:49 +0200 (Thu, 02 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Clear value properly when a dropdown gets nil from its get function
+------------------------------------------------------------------------
+r44966 | nargiddley | 2007-07-27 11:16:42 +0200 (Fri, 27 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Fix for multitoggle options not getting passed the correct values when not in a pass group
+------------------------------------------------------------------------
+r44963 | nargiddley | 2007-07-27 10:25:56 +0200 (Fri, 27 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Add support for isRadio on toggle options
+------------------------------------------------------------------------
+r44466 | nargiddley | 2007-07-22 05:55:55 +0200 (Sun, 22 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: When an invalid AceOptions path is encountered, fall back to parent options until a valid one is found
+------------------------------------------------------------------------
+r44397 | nargiddley | 2007-07-21 04:59:18 +0200 (Sat, 21 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Pass key and passValue to multitoggle functions in the correct order
+------------------------------------------------------------------------
+r44072 | nargiddley | 2007-07-18 10:22:39 +0200 (Wed, 18 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Bugfix for changedFunc on textboxes
+- Added :SetSize(id, width, height) to resize an open window, also 'width' and 'height' parameters to :Register for initial window size
+------------------------------------------------------------------------
+r43715 | nargiddley | 2007-07-13 13:51:54 +0200 (Fri, 13 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Waterfall-1.0/Waterfall-1.0/Waterfall-1.0.lua
+
+Waterfall-1.0: Added changedFunc to Textboxes, called when the text changes. setFunc is still called when enter is pressed
+------------------------------------------------------------------------

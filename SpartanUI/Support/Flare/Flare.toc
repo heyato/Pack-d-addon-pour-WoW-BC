@@ -1,0 +1,6 @@
+## Interface: 20400
+## Title: Flare
+## Notes: By Ansu of Dalaran
+## X-Date: Feb 28, 2007
+
+FilmGrain.lua

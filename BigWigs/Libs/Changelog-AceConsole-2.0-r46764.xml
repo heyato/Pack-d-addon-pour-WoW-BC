@@ -1,0 +1,42 @@
+------------------------------------------------------------------------
+r46764 | rabbit | 2007-08-17 11:05:49 +0200 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceAddon-2.0/AceAddon-2.0.lua
+   M /trunk/Ace2/AceConsole-2.0/AceConsole-2.0.lua
+   M /trunk/Ace2/AceDB-2.0/AceDB-2.0.lua
+
+Ace2: koKR update and some space cleanup by Sayclub.
+------------------------------------------------------------------------
+r45434 | ckknight | 2007-07-31 20:49:07 +0200 (Tue, 31 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceConsole-2.0/AceConsole-2.0.lua
+
+.AceConsole-2.0 - autodoc the AceConsole namespace.
+------------------------------------------------------------------------
+r44832 | ckknight | 2007-07-25 22:32:44 +0200 (Wed, 25 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceConsole-2.0/AceConsole-2.0.lua
+
+.AceConsole-2.0 - remove my event debugger thing.
+------------------------------------------------------------------------
+r44825 | antiarc | 2007-07-25 22:02:50 +0200 (Wed, 25 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceConsole-2.0/AceConsole-2.0.lua
+
+Ace2: Comment out the debug crap at the end of the file.
+------------------------------------------------------------------------
+r44816 | ckknight | 2007-07-25 20:02:40 +0200 (Wed, 25 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceConsole-2.0/AceConsole-2.0.lua
+
+.AceConsole-2.0 - fix issue where different casings or aliases would be passed as passValues. (thanks, mitch0)
+------------------------------------------------------------------------
+r44791 | rabbit | 2007-07-25 15:32:00 +0200 (Wed, 25 Jul 2007) | 4 lines
+Changed paths:
+   M /trunk/Ace2/AceConsole-2.0/AceConsole-2.0.lua
+
+.AceConsole-2.0:
+ * Passing groups within passing groups will no longer pass sets&gets to the bottom-most parent if the child group has its own get&set defined (bug fix of Mikk's passing-in-passing support) (Mikk)
+ * A group with set&get defined that is a child of a passing group will no longer call the parent's get() when it is _listed_ in aceconsole (long-standing bug) (Mikk)
+ * Random cleanups (rabbit)
+------------------------------------------------------------------------

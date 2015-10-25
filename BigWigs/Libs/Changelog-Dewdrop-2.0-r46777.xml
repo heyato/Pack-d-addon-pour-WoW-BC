@@ -1,0 +1,21 @@
+------------------------------------------------------------------------
+r46777 | rabbit | 2007-08-17 13:12:15 +0200 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/DewdropLib/Dewdrop-2.0/Dewdrop-2.0.lua
+
+DewdropLib: Fix execute items when confirm is a string.
+------------------------------------------------------------------------
+r44792 | mikk | 2007-07-25 15:46:06 +0200 (Wed, 25 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/DewdropLib/Dewdrop-2.0/Dewdrop-2.0.lua
+
+DewdropLib: 
+- Passing groups within passing groups will no longer pass sets&gets to the bottom-most parent if the child group has its own get&set defined (bug fix of Mikk's passing-in-passing support)
+------------------------------------------------------------------------
+r44560 | ckknight | 2007-07-23 02:34:52 +0200 (Mon, 23 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/DewdropLib/Dewdrop-2.0/Dewdrop-2.0.lua
+
+.Dewdrop-2.0 - through massive hacks, if tooltipTitle or tooltipText is a font specified in SharedMedia-1.0, the tooltip will be changed to said font, to provide a preview.
+
+------------------------------------------------------------------------

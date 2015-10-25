@@ -1,0 +1,20 @@
+## Interface: 20400
+## Title: SpartanUI
+## Notes: v2.13                                                  By Ansu of Dalaran   www.spartanui.com
+## Version: 2.13
+## Author: Jonathan Woodburn (a.k.a. Atriace/Ansu)
+## X-Date: October 9, 2008
+## X-Contributors: Matthew VG (rendered animation bars). Iriel, Guillotine, MentalPower, Drundia, Antiarc, David W (code reference sages) nevcairiel (Bartender3 integration code).  Bartender3 included with permission by nevcairiel.
+## X-Email: ansu@spartanui.com
+## X-Website: http://www.spartanui.com
+## SavedVariables: SUI_Lang, FEDB, suiData, suiTest
+## SavedVariablesPerCharacter: SUI_mobLast, SUI_mobXP, SUI_Titan
+## RequiredDeps:Bartender3
+## OptionalDeps:MobInfo2
+
+Support\Flare\FilmEffects.lua
+
+Localization.lua
+SpartanUI.lua
+Font.xml
+SpartanUI.xml

@@ -1,0 +1,20 @@
+------------------------------------------------------------------------
+r43318 | antiarc | 2007-07-09 23:19:17 +0200 (Mon, 09 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceModuleCore-2.0/AceModuleCore-2.0.lua
+
+Ace2: Added autodoc
+------------------------------------------------------------------------
+r42536 | ckknight | 2007-07-02 21:06:45 +0200 (Mon, 02 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceModuleCore-2.0/AceModuleCore-2.0.lua
+
+.AceModuleCore-2.0 - :IterateModulesWithMethod and :CallMethodOnAllModules only work with active modules now.
+------------------------------------------------------------------------
+r42442 | ckknight | 2007-07-02 02:29:32 +0200 (Mon, 02 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/Ace2/AceModuleCore-2.0/AceModuleCore-2.0.lua
+
+.AceModuleCore-2.0 - add :IterateModulesWithMethod("method")
+- add :CallMethodOnAllModules("method", ...)
+------------------------------------------------------------------------

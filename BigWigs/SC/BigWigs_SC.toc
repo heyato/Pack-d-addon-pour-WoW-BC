@@ -1,0 +1,28 @@
+﻿## Interface: 20100
+
+## Title: Big Wigs [|cffeda55fSerpentshrine Cavern|r]
+## Title-frFR: Big Wigs [|cffeda55fCaverne du sanctuaire du Serpent|r]
+## Notes: Big Wigs Serpentshrine Cavern Modules
+## Notes-frFR: Modules Big Wigs concernant la Caverne du sanctuaire du Serpent.
+## Author: Ammo, Rabbit, Funkydude
+## X-Credits: Cartas, SoLoR, Beffe, Silah, Prodomo, Radon, Tsigo & Others
+## Version: 2.0
+## LoadOnDemand: 1
+
+## X-Website: http://www.wowace.com/index.php/BigWigs
+## X-Category: Raid
+## X-RelSite-WoWI: 5086
+## X-RelSite-Curse: 4356
+## X-AceForum: 1222
+
+
+## X-BigWigs-LoadInZone: Serpentshrine Cavern
+
+## Dependencies: BigWigs
+
+Hydross.lua
+Karathress.lua
+Leotheras.lua
+Morogrim.lua
+Lurker.lua
+Vashj.lua

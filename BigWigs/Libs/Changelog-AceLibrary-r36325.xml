@@ -1,0 +1,57 @@
+------------------------------------------------------------------------
+r36325 | ckknight | 2007-05-22 11:06:03 +0200 (Tue, 22 May 2007) | 2 lines
+Changed paths:
+   M /trunk/Ace2/Ace2.toc
+   M /trunk/Ace2/AceAddon-2.0/AceAddon-2.0.lua
+   M /trunk/Ace2/AceAddon-2.0/AceAddon-2.0.toc
+   M /trunk/Ace2/AceComm-2.0/AceComm-2.0.toc
+   M /trunk/Ace2/AceConsole-2.0/AceConsole-2.0.toc
+   M /trunk/Ace2/AceDB-2.0/AceDB-2.0.toc
+   M /trunk/Ace2/AceDebug-2.0/AceDebug-2.0.toc
+   M /trunk/Ace2/AceEvent-2.0/AceEvent-2.0.toc
+   M /trunk/Ace2/AceHook-2.1/AceHook-2.1.toc
+   M /trunk/Ace2/AceLibrary/AceLibrary.toc
+   M /trunk/Ace2/AceLocale-2.2/AceLocale-2.2.toc
+   M /trunk/Ace2/AceModuleCore-2.0/AceModuleCore-2.0.toc
+   M /trunk/Ace2/AceOO-2.0/AceOO-2.0.toc
+   M /trunk/Ace2/AceTab-2.0/AceTab-2.0.toc
+
+Ace2 - bump to 20100
+
+------------------------------------------------------------------------
+r36179 | rabbit | 2007-05-22 02:45:52 +0200 (Tue, 22 May 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLibrary/AceLibrary.lua
+
+.AceLibrary: Don't stop searching for libraries to load when one is found. Babble-2.2, for instance, has the X-Babble-Spell-2.2 field in its toc, even thought the Babble-Spell-2.2 directory could be extracted to its own addon.  We want the check to load both, instead of bailing after the first. Patch by nymbia.
+------------------------------------------------------------------------
+r36009 | ckknight | 2007-05-21 01:44:27 +0200 (Mon, 21 May 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLibrary/AceLibrary.toc
+
+.AceLibrary - remove LoD
+------------------------------------------------------------------------
+r35416 | rabbit | 2007-05-14 15:49:05 +0200 (Mon, 14 May 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLibrary/AceLibrary.lua
+
+.AceLibrary: Set DONT_ENABLE_LIBRARIES at the top of AceLibrary.lua to disable automatic enabling of loadondemand libraries for :HasInstance and :GetInstance.
+------------------------------------------------------------------------
+r35202 | ckknight | 2007-05-12 12:51:41 +0200 (Sat, 12 May 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLibrary/AceLibrary.lua
+
+.AceLibrary - add another line with which to try to load addons.
+------------------------------------------------------------------------
+r35201 | ckknight | 2007-05-12 12:43:48 +0200 (Sat, 12 May 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLibrary/AceLibrary.lua
+
+.AceLibrary - typo
+------------------------------------------------------------------------
+r35200 | ckknight | 2007-05-12 12:40:20 +0200 (Sat, 12 May 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceLibrary/AceLibrary.lua
+
+.AceLibrary - as well as loading LoD addons that are libraries, try to enable them as well. (thanks sylvanaar)
+------------------------------------------------------------------------

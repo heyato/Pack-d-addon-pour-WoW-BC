@@ -1,0 +1,11 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+<Script file="WIM_Titan.lua"/>
+<Script file="WIM_FuBar.lua"/>
+<Script file="WIM_Prat.lua"/>
+<Script file="WIM_Auctioneer.lua"/>
+
+<Include file="WIM_Titan.xml"/>
+
+</Ui>

@@ -1,0 +1,26 @@
+﻿## Interface: 20100
+
+## Title: Big Wigs [|cffeda55fThe Eye|r]
+## Title-frFR: Big Wigs [|cffeda55fL'Oeil|r]
+## Notes: Big Wigs The Eye Modules
+## Notes-frFR: Modules Big Wigs concernant L'Oeil.
+## Author: Rabbit, Funkydude
+## X-Credits: Daemona, Radon & Others
+## Version: 2.0
+## LoadOnDemand: 1
+
+## X-Website: http://www.wowace.com/index.php/BigWigs
+## X-Category: Raid
+## X-RelSite-WoWI: 5086
+## X-RelSite-Curse: 4356
+## X-AceForum: 1222
+
+## X-BigWigs-Menu: The Eye
+## X-BigWigs-LoadInZone: Tempest Keep
+
+## Dependencies: BigWigs
+
+Alar.lua
+Reaver.lua
+Kaelthas.lua
+Solarian.lua

@@ -1,0 +1,118 @@
+------------------------------------------------------------------------
+r79988 | StingerSoft | 2008-08-08 21:30:49 -0400 (Fri, 08 Aug 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-ruRU.lua
+
+Recount:
+- update ruRU
+------------------------------------------------------------------------
+r79898 | elsia | 2008-08-06 19:43:51 -0400 (Wed, 06 Aug 2008) | 4 lines
+Changed paths:
+   M /trunk/Recount/GUI_Main.lua
+   M /trunk/Recount/GUI_Realtime.lua
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Preparing for WotLK power gains
+- Added WotLK beta UIDropDown changes (thanks to Gnarfoz & folks at #wowace, this is dry-coded, please test on beta and report).
+
+------------------------------------------------------------------------
+r79689 | StingerSoft | 2008-08-02 17:55:39 -0400 (Sat, 02 Aug 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-ruRU.lua
+
+Recount:
+- fix ruRU
+------------------------------------------------------------------------
+r79627 | StingerSoft | 2008-08-01 19:01:10 -0400 (Fri, 01 Aug 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-ruRU.lua
+
+Recount:
+- 
+------------------------------------------------------------------------
+r79626 | StingerSoft | 2008-08-01 18:45:08 -0400 (Fri, 01 Aug 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Recount.toc
+   A /trunk/Recount/locales/Recount-ruRU.lua
+
+Recount:
+- added ruRU localization
+------------------------------------------------------------------------
+r79538 | elsia | 2008-07-30 20:04:27 -0400 (Wed, 30 Jul 2008) | 4 lines
+Changed paths:
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Add WotLK SPELL_RESURRECT support.
+- Add heuristic to support WotLK SPELL_HEAL overheal field. Should work fine for 2.4.x without exception. Should only fail for WotLK only if the overheal is exactly 1 and the heal wasn't a crit, else it should be fine.
+
+------------------------------------------------------------------------
+r79128 | elsia | 2008-07-25 13:37:45 -0400 (Fri, 25 Jul 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Fixed CC breaking stat for melee breakers.
+------------------------------------------------------------------------
+r79091 | elsia | 2008-07-24 23:25:25 -0400 (Thu, 24 Jul 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Proper handling of SPELL_AURA_BROKEN* which restores functionality of the CC Breaker stat.
+
+------------------------------------------------------------------------
+r79011 | scorpion | 2008-07-23 17:49:03 -0400 (Wed, 23 Jul 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-zhTW.lua
+
+Recount:
+- zhTW readjust
+------------------------------------------------------------------------
+r78981 | 7destiny | 2008-07-23 07:47:10 -0400 (Wed, 23 Jul 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-koKR.lua
+
+Recount:
+- koKR Update
+------------------------------------------------------------------------
+r78978 | ananhaid | 2008-07-23 06:08:50 -0400 (Wed, 23 Jul 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-zhCN.lua
+   M /trunk/Recount/locales/Recount-zhTW.lua
+
+Recount:
+- zhCN/zhTW update.
+------------------------------------------------------------------------
+r78940 | elsia | 2008-07-22 17:47:01 -0400 (Tue, 22 Jul 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/Fights.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/locales/Recount-enUS.lua
+
+Recount:
+- Added slider option to AceConfig GUI to allow to change the maximum number of retained fight segments from 1 to 25 (default stays 5 for now).
+
+------------------------------------------------------------------------
+r78820 | elsia | 2008-07-20 19:10:57 -0400 (Sun, 20 Jul 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Dispels and Dispelled displays and details now also show offensive dispells like purge.
+------------------------------------------------------------------------
+r78600 | elsia | 2008-07-16 22:35:30 -0400 (Wed, 16 Jul 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Bandaid for empty secondary that occurs at robots in Sunwell under certain conditions.
+------------------------------------------------------------------------
+r78174 | elsia | 2008-07-10 04:53:47 -0400 (Thu, 10 Jul 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/deletion.lua
+
+Recount:
+- Potential fix for double deletions when receiving RAID_ROSTER_UPDATE after zoning.
+------------------------------------------------------------------------

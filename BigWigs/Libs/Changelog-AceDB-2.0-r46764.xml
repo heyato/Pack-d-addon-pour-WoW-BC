@@ -1,0 +1,16 @@
+------------------------------------------------------------------------
+r46764 | rabbit | 2007-08-17 11:05:49 +0200 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceAddon-2.0/AceAddon-2.0.lua
+   M /trunk/Ace2/AceConsole-2.0/AceConsole-2.0.lua
+   M /trunk/Ace2/AceDB-2.0/AceDB-2.0.lua
+
+Ace2: koKR update and some space cleanup by Sayclub.
+------------------------------------------------------------------------
+r44196 | rabbit | 2007-07-19 14:11:40 +0200 (Thu, 19 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/Ace2/AceAddon-2.0/AceAddon-2.0.lua
+   M /trunk/Ace2/AceDB-2.0/AceDB-2.0.lua
+
+Ace2: zhTW update by heliumwong.
+------------------------------------------------------------------------

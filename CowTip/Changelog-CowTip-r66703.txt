@@ -1,0 +1,77 @@
+------------------------------------------------------------------------
+r66703 | ckknight | 2008-03-28 11:39:23 -0400 (Fri, 28 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/Text/Text.lua
+
+CowTip - prevent multiple line tags.
+------------------------------------------------------------------------
+r66478 | ckknight | 2008-03-27 17:09:40 -0400 (Thu, 27 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/Text/Text.lua
+
+CowTip_Text - fix weird issue where the first line would turn a color besides white.
+------------------------------------------------------------------------
+r66453 | ellipsis | 2008-03-27 15:06:55 -0400 (Thu, 27 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/embeds.xml
+   M /trunk/CowTip/libs
+
+CowTip: embed Callback-Handler-1.0 for LibTalentQuery-1.0
+------------------------------------------------------------------------
+r66258 | ckknight | 2008-03-26 22:59:09 -0400 (Wed, 26 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/Text/Text.lua
+
+CowTip_Text - using massive hackery, allow code syntax colorizing to occur while typing.
+------------------------------------------------------------------------
+r66223 | ckknight | 2008-03-26 19:53:20 -0400 (Wed, 26 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/Text/Text.lua
+
+CowTip - add DogTag text coloring.
+------------------------------------------------------------------------
+r65941 | ellipsis | 2008-03-26 00:11:23 -0400 (Wed, 26 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/CowTip.toc
+   M /trunk/CowTip/embeds.xml
+   M /trunk/CowTip/libs
+
+CowTip: Embed LibTalentQuery-1.0 for DogTag
+------------------------------------------------------------------------
+r65841 | ckknight | 2008-03-25 16:28:54 -0400 (Tue, 25 Mar 2008) | 3 lines
+Changed paths:
+   M /trunk/CowTip/CowTip.lua
+   M /trunk/CowTip/CowTip.toc
+   M /trunk/CowTip/embeds.xml
+   M /trunk/CowTip/libs
+
+CowTip - update TOC
+- bump to version 3.0 for marketing purposes
+- remove LibDogTag-2.0 lib
+------------------------------------------------------------------------
+r65811 | durcyn | 2008-03-25 15:07:02 -0400 (Tue, 25 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/CowTip.toc
+   M /trunk/CowTip/embeds.xml
+   M /trunk/CowTip/libs
+
+CowTip: Add LDT-3 and LDT-U-3 to toc/embeds/externals.
+------------------------------------------------------------------------
+r65470 | ckknight | 2008-03-23 13:53:03 -0400 (Sun, 23 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/Text/Text.lua
+
+CowTip - in WoW 2.4, use LibDogTag-3.0
+------------------------------------------------------------------------
+r65379 | pettigrow | 2008-03-22 17:13:27 -0400 (Sat, 22 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/Position/Position.lua
+
+CowTip: frFR Update
+------------------------------------------------------------------------
+r64217 | ckknight | 2008-03-11 07:41:35 -0400 (Tue, 11 Mar 2008) | 1 line
+Changed paths:
+   M /trunk/CowTip/Appearance/Appearance.lua
+
+CowTip_Appearance - Since apparently Frame:SetBackdrop(table) causes a memory leak as far as Blizzard is concerned, take precautions not to call it when unneeded.
+------------------------------------------------------------------------

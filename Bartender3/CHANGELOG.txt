@@ -1,0 +1,31 @@
+Bartender3 detailed change log
+---------------------------------------
+
+Version 3.1.4 (r65552 - 2008-03-24)
+  - Updated for World of Warcraft Client Patch 2.4.0
+  - Added support for the Possess Bar
+  - Improved the way the frame overlays work in unlocked mode
+  - Fixed Hide/Show of Bars in unlocked mode
+  - Small Performance Tweaks
+
+Version 3.1.3 (r59028 - 2008-01-21)
+  - Updated for World of Warcraft Client Patch 2.3.2
+  - Add support for moving/scaling the Roll Bar
+  - Improved StickyFrames support by allowing Bars to snap to UIParent and WorldFrame
+  - Alot of Fixes and Tweaks
+
+Version 3.1.2 (r50022 - 2007-09-27)
+  - Full support and optimizations for World of Warcraft Client Patch 2.2
+  - Added support for showing the default Reputation Bar
+  - Added an option to change the color of range and mana indicators
+  - Added an option to disable button tooltips while in combat
+  - Added an option to hide bars based on your stance
+  - Added options to the special bars to disable them completely
+  - Improved the out of range indicator in "Hotkey" mode
+  - Improved the stance handler, it will now pickup stances instantly when you learn them
+  - The "Re-use Buttons" feature has been removed again, due to some serious bugs
+  - Simplified the default settings
+  - Internal structure changes - split alot of code into seperate files
+
+Earlier Versions:
+  - All the features you see now, detailed changelog started with version 3.1.2

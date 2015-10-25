@@ -1,0 +1,11 @@
+## Interface: 20400
+## Title: WIM_Options
+## Notes: WIM Options (Load on Demand)
+## Author: Pazza (Bronzebeard)
+## eMail: johnlangone@gmail.com
+## X-Email: johnlangone@gmail.com
+## X-Website: http://www.wimaddon.com/
+## X-Category: MYADDONS_CATEGORY_CHAT
+## Dependencies: WIM
+## LoadOnDemand: 1
+WIM_Options.xml

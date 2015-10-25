@@ -1,0 +1,34 @@
+﻿## Interface: 20100
+
+## Title: Big Wigs [|cffeda55fKarazhan|r]
+## Notes: Big Wigs Karazhan Modules
+## Notes-frFR: Modules Big Wigs concernant Karazhan.
+## Notes-zhTW: BigWigs 卡拉贊
+## Author: Ammo, Rabbit, Funkydude
+## X-Credits: Tekkub Stoutwrithe(founding author), Arelenda & Others
+## Version: 2.0
+## LoadOnDemand: 1
+
+## X-Website: http://www.wowace.com/index.php/BigWigs
+## X-Category: Raid
+## X-RelSite-WoWI: 5086
+## X-RelSite-Curse: 4356
+## X-AceForum: 1222
+
+## X-BigWigs-LoadInZone: Karazhan
+
+## Dependencies: BigWigs
+
+Curator.lua
+Hyakiss.lua
+Malchezaar.lua
+ShadeOfAran.lua
+Terestian.lua
+TheBigBadWolf.lua
+RomuloJulianne.lua
+Moroes.lua
+Attumen.lua
+Maiden.lua
+WizardofOz.lua
+Netherspite.lua
+Nightbane.lua

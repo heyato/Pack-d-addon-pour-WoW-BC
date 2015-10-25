@@ -1,0 +1,28 @@
+------------------------------------------------------------------------
+r45059 | cwdg | 2007-07-28 08:20:23 +0200 (Sat, 28 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SharedMediaLib/SharedMedia-1.0/SharedMedia-1.0.lua
+
+SharedMediaLib: fix ANSII format to UTF8
+------------------------------------------------------------------------
+r45008 | hshh | 2007-07-27 22:10:25 +0200 (Fri, 27 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SharedMediaLib/SharedMedia-1.0/SharedMedia-1.0.lua
+
+SharedMediaLib: fix zhCN localization
+------------------------------------------------------------------------
+r42448 | nymbia | 2007-07-02 02:58:51 +0200 (Mon, 02 Jul 2007) | 4 lines
+Changed paths:
+   M /trunk/SharedMediaLib/SharedMedia-1.0/SharedMedia-1.0.lua
+
+.SharedMedia-1.0:
+- Take the odd font exceptions for zhTW and apply them to zhCN as well.
+- Drycoded; if anything breaks, blame Funkeh`.
+- For the record, I think these hardcoded overrides are a terrible way to accomplish this, the fonts should simply be added to the list for zh/kr clients instead of overriding the standard fonts.
+------------------------------------------------------------------------
+r41844 | sayclub | 2007-06-27 06:40:52 +0200 (Wed, 27 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/SharedMediaLib/SharedMedia-1.0/SharedMedia-1.0.lua
+
+SharedMediaLib: Updated koKR system fonts
+------------------------------------------------------------------------

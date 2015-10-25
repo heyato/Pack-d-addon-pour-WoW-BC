@@ -1,0 +1,138 @@
+------------------------------------------------------------------------
+r46784 | rabbit | 2007-08-17 14:43:52 +0200 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Fix library upgrades.
+------------------------------------------------------------------------
+r46783 | rabbit | 2007-08-17 14:29:55 +0200 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Add settings for Sticky output.
+------------------------------------------------------------------------
+r46782 | rabbit | 2007-08-17 14:10:09 +0200 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Bugfix.
+------------------------------------------------------------------------
+r46772 | rabbit | 2007-08-17 12:08:06 +0200 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Attempt to fix the scroll area setting without actually testing the fix much.
+------------------------------------------------------------------------
+r46694 | damjau | 2007-08-16 14:35:34 +0200 (Thu, 16 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+SinkLib - fix bcf support function
+------------------------------------------------------------------------
+r45197 | rabbit | 2007-07-29 15:36:26 +0200 (Sun, 29 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Fix when an addons saved output sink is not available.
+------------------------------------------------------------------------
+r45184 | damjau | 2007-07-29 13:34:00 +0200 (Sun, 29 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+SinkLib - Support BlinkCombatFeddback
+------------------------------------------------------------------------
+r45135 | rabbit | 2007-07-29 00:30:35 +0200 (Sun, 29 Jul 2007) | 4 lines
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0:
+ * :SetSinkStorage(object, db), allows you to manually set the database to use for storage for a specific object.
+ * Removed the BigWigs sink, it should be added by BigWigs manually.
+ * When no sink is set specifically, Sink will use the first combat text addon it can find, and then default to chat if none are present, instead of just picking one at random.
+------------------------------------------------------------------------
+r44967 | cwdg | 2007-07-27 11:57:43 +0200 (Fri, 27 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+SinkLib:
+- add zhCN local
+------------------------------------------------------------------------
+r44964 | rabbit | 2007-07-27 10:40:37 +0200 (Fri, 27 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Fix :SetSinkOverride.
+------------------------------------------------------------------------
+r44960 | rabbit | 2007-07-27 09:48:08 +0200 (Fri, 27 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Fix MSBT outlines, thanks Gngsk.
+------------------------------------------------------------------------
+r44892 | ryuji | 2007-07-26 17:36:13 +0200 (Thu, 26 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+SinkLib: add support zhTW localization
+------------------------------------------------------------------------
+r44889 | ryuji | 2007-07-26 17:27:08 +0200 (Thu, 26 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+SinkLib: add support zhTW localization
+------------------------------------------------------------------------
+r44886 | ammo | 2007-07-26 17:08:02 +0200 (Thu, 26 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+SinkLib: add deDE translation by Matrix110
+
+------------------------------------------------------------------------
+r44876 | rabbit | 2007-07-26 12:11:13 +0200 (Thu, 26 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Bugfix.
+------------------------------------------------------------------------
+r44873 | jerry | 2007-07-26 11:32:51 +0200 (Thu, 26 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+SinkLib: frFR locale
+
+------------------------------------------------------------------------
+r44861 | sayclub | 2007-07-26 06:14:26 +0200 (Thu, 26 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Added localization koKR
+------------------------------------------------------------------------
+r44857 | rabbit | 2007-07-26 05:18:38 +0200 (Thu, 26 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Allow a nil description to :RegisterSink and use L_ROUTE then.
+------------------------------------------------------------------------
+r44856 | rabbit | 2007-07-26 05:15:36 +0200 (Thu, 26 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Add :RegisterSink.
+------------------------------------------------------------------------
+r44855 | rabbit | 2007-07-26 04:38:33 +0200 (Thu, 26 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+
+.Sink-1.0: Fix bigwigs sink if the Messages module doesn't exist.
+------------------------------------------------------------------------
+r44799 | rabbit | 2007-07-25 16:44:59 +0200 (Wed, 25 Jul 2007) | 1 line
+Changed paths:
+   A /trunk/SinkLib
+   A /trunk/SinkLib/Sink-1.0
+   A /trunk/SinkLib/Sink-1.0/Sink-1.0.lua
+   A /trunk/SinkLib/SinkLib.toc
+   A /trunk/SinkLib/embeds.xml
+   A /trunk/SinkLib/libs
+
+.Sink-1.0: Library for chat/combat text/other frame output, not quite finished.
+------------------------------------------------------------------------

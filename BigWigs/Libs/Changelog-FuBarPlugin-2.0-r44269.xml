@@ -1,0 +1,17 @@
+------------------------------------------------------------------------
+r44269 | arrowmaster | 2007-07-20 00:58:39 +0200 (Fri, 20 Jul 2007) | 4 lines
+Changed paths:
+   M /trunk/FuBarPlugin-2.0/FuBarPlugin-2.0/FuBarPlugin-2.0.lua
+   M /trunk/FuBarPlugin-2.0/FuBarPlugin-2.0.toc
+
+FuBarPlugin-2.0:
+-Set Ace2 and Fubar as OptionalDeps in TOC
+-Add Note to top of FuBarPlugin-2.0.lua about OptDeping FuBar similar to Glory-2.0 note about setting saved vars
+-Update svn link to correct location while where at it
+------------------------------------------------------------------------
+r40928 | ckknight | 2007-06-21 02:37:48 +0200 (Thu, 21 Jun 2007) | 1 line
+Changed paths:
+   M /trunk/FuBarPlugin-2.0/FuBarPlugin-2.0/FuBarPlugin-2.0.lua
+
+FuBarPlugin-2.0 - bugfix in minimap menu positioning
+------------------------------------------------------------------------

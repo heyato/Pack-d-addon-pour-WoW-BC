@@ -1,0 +1,25 @@
+## Interface: 20400
+## Title: WIM
+## Author: Pazza (Bronzebeard)
+## Version: 2.4.15
+## Notes: Give whispers an instant messenger feel.
+## eMail: johnlangone@gmail.com
+## X-Email: johnlangone@gmail.com
+## X-Website: http://www.wimaddon.com/
+## X-Category: MYADDONS_CATEGORY_CHAT
+## DefaultState: Enabled
+## OptionalDeps: Titan, AllInOneInventory, EngInventory, LootLink, FuBar, ItemSync, AdvancedTradeSkillWindow
+## SavedVariables: WIM_Data, WIM_Alias, WIM_Filters, WIM_History, WIM_Cache, WIM_FuBarDB
+## X-Embeds: PratPlugin-1.0, WhoLib
+
+libs\includes.xml
+
+WIMTemplates.xml
+WIM.xml
+
+Compatibility\includes.xml
+
+WIM_Icon.xml
+WIM_History.xml
+
+

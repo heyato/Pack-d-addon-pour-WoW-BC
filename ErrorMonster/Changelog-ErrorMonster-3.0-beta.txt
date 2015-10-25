@@ -1,0 +1,401 @@
+------------------------------------------------------------------------
+r78 | rabbit | 2008-10-14 23:05:22 +0000 (Tue, 14 Oct 2008) | 2 lines
+Changed paths:
+   A /tags/3.0-beta (from /trunk:77)
+
+3.0 beta release
+
+------------------------------------------------------------------------
+r77 | 7destiny | 2008-10-13 16:07:56 +0000 (Mon, 13 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/ErrorMonster-koKR.lua
+
+ErrorMonster: koKR Update
+------------------------------------------------------------------------
+r76 | rabbit | 2008-10-11 15:26:53 +0000 (Sat, 11 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/ErrorMonster-enUS.lua
+   M /trunk/ErrorMonster-esES.lua
+   M /trunk/ErrorMonster-koKR.lua
+   M /trunk/ErrorMonster-zhCN.lua
+   M /trunk/ErrorMonster-zhTW.lua
+   M /trunk/ErrorMonster.lua
+   M /trunk/ErrorMonster.toc
+   M /trunk/embeds.xml
+
+Convert to Ace3, simplified a great deal.
+------------------------------------------------------------------------
+r75 | rabbit | 2008-10-01 15:16:22 +0000 (Wed, 01 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/libs
+
+Remove externals and fix .pkgmeta.
+------------------------------------------------------------------------
+r74 | root | 2008-09-30 15:49:37 +0000 (Tue, 30 Sep 2008) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Hopefully fix .pkgmeta
+------------------------------------------------------------------------
+r73 | root | 2008-09-29 21:48:48 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+   M /trunk/libs
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r71 | root | 2008-09-29 20:57:51 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/ErrorMonster
+   A /trunk (from /tmp/trunk/ErrorMonster:70)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r68 | rabbit | 2008-05-10 22:16:22 +0000 (Sat, 10 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Forgot the storage.
+------------------------------------------------------------------------
+r67 | rabbit | 2008-05-10 22:12:21 +0000 (Sat, 10 May 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+   M /tmp/trunk/ErrorMonster/embeds.xml
+   M /tmp/trunk/ErrorMonster/libs
+
+ErrorMonster: Sink-2.0.
+------------------------------------------------------------------------
+r65 | whyv | 2008-04-02 01:40:20 +0000 (Wed, 02 Apr 2008) | 1 line
+Changed paths:
+   A /tmp/trunk/ErrorMonster/ErrorMonster-zhTW.lua
+
+ErrorMonster: add zhTW locale
+------------------------------------------------------------------------
+r64 | rabbit | 2008-03-26 11:55:28 +0000 (Wed, 26 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+.Some bumps.
+------------------------------------------------------------------------
+r62 | funkydude | 2007-11-13 17:19:46 +0000 (Tue, 13 Nov 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+.trunk: Bump toc for various addons and libraries working on the PTR
+------------------------------------------------------------------------
+r61 | funkydude | 2007-09-25 16:20:41 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+.trunk: various toc updates of ptr working addons
+------------------------------------------------------------------------
+r60 | samuelcup | 2007-08-01 15:58:23 +0000 (Wed, 01 Aug 2007) | 1 line
+Changed paths:
+   A /tmp/trunk/ErrorMonster/ErrorMonster-zhCN.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: add zhCN translation
+------------------------------------------------------------------------
+r59 | rabbit | 2007-07-25 14:55:10 +0000 (Wed, 25 Jul 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster-esES.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster-koKR.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+   M /tmp/trunk/ErrorMonster/embeds.xml
+   M /tmp/trunk/ErrorMonster/libs
+
+ErrorMonster: Use SinkLib for output.
+------------------------------------------------------------------------
+r58 | rabbit | 2007-07-21 00:05:01 +0000 (Sat, 21 Jul 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Update for Parrot API changes.
+------------------------------------------------------------------------
+r57 | rabbit | 2007-07-19 15:07:11 +0000 (Thu, 19 Jul 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Parrot support.
+------------------------------------------------------------------------
+r56 | funkydude | 2007-06-21 05:35:46 +0000 (Thu, 21 Jun 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+   A /tmp/trunk/ErrorMonster/embeds.xml
+
+ErrorMonster: use embeds.xml
+------------------------------------------------------------------------
+r55 | rabbit | 2007-05-22 06:23:16 +0000 (Tue, 22 May 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+.Bump to 20100.
+------------------------------------------------------------------------
+r54 | rabbit | 2007-03-23 08:49:51 +0000 (Fri, 23 Mar 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Clean up our option table.
+------------------------------------------------------------------------
+r53 | kergoth | 2007-01-23 22:13:05 +0000 (Tue, 23 Jan 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   M /tmp/trunk/ErrorMonster/license.txt
+
+.Line ending fixups: for files that already had an eol-style set to something other than native, revert to their preferred eol style.
+------------------------------------------------------------------------
+r52 | kergoth | 2007-01-23 21:50:43 +0000 (Tue, 23 Jan 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster-esES.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster-koKR.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   M /tmp/trunk/ErrorMonster/license.txt
+
+.Line ending fixups: trunk/
+------------------------------------------------------------------------
+r51 | rabbit | 2007-01-15 10:50:57 +0000 (Mon, 15 Jan 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: The add command can now accept global variables, such as /errormonster add ERR_BADATTACKPOS.
+------------------------------------------------------------------------
+r50 | rabbit | 2007-01-10 11:13:10 +0000 (Wed, 10 Jan 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: 20003.
+------------------------------------------------------------------------
+r47 | rabbit | 2006-12-18 05:29:11 +0000 (Mon, 18 Dec 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+   A /tmp/trunk/ErrorMonster/license.txt
+
+ErrorMonster: License.
+------------------------------------------------------------------------
+r46 | shiftos | 2006-12-14 16:41:37 +0000 (Thu, 14 Dec 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-esES.lua
+
+ErrorMonster- fixed a string in the esES file (shiftos)
+------------------------------------------------------------------------
+r45 | shiftos | 2006-12-14 15:04:33 +0000 (Thu, 14 Dec 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster - added note in spanish to .toc(shiftos)
+------------------------------------------------------------------------
+r44 | shiftos | 2006-12-14 15:03:51 +0000 (Thu, 14 Dec 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-esES.lua
+
+ErrorMonster - updated spanish translation (shiftos)
+------------------------------------------------------------------------
+r43 | rabbit | 2006-12-13 00:05:27 +0000 (Wed, 13 Dec 2006) | 1 line
+Changed paths:
+   A /tmp/trunk/ErrorMonster/ErrorMonster-esES.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: Spanish translation, thanks to shiftos.
+------------------------------------------------------------------------
+r42 | sayclub | 2006-12-11 10:59:51 +0000 (Mon, 11 Dec 2006) | 2 lines
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   A /tmp/trunk/ErrorMonster/ErrorMonster-koKR.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: add Korean localization to .lua (by talkwind)
+
+------------------------------------------------------------------------
+r41 | rabbit | 2006-12-05 03:16:41 +0000 (Tue, 05 Dec 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+   M /tmp/trunk/ErrorMonster/libs
+
+ErrorMonster: 20000 and fix libs.
+------------------------------------------------------------------------
+r40 | rabbit | 2006-11-08 20:54:50 +0000 (Wed, 08 Nov 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: Oops :P
+------------------------------------------------------------------------
+r39 | rabbit | 2006-11-08 19:34:46 +0000 (Wed, 08 Nov 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: Fix TOC Notes.
+------------------------------------------------------------------------
+r38 | rabbit | 2006-11-08 09:02:08 +0000 (Wed, 08 Nov 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: Credit Allara for RogueSpam in the TOC.
+------------------------------------------------------------------------
+r37 | rabbit | 2006-11-06 21:16:54 +0000 (Mon, 06 Nov 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Provide the name argument for RegisterChatCommand.
+------------------------------------------------------------------------
+r36 | rabbit | 2006-11-03 16:02:25 +0000 (Fri, 03 Nov 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Can now be configured to aggro or ignore errors, system messages and information messages (quest notifications, etc).
+------------------------------------------------------------------------
+r35 | rabbit | 2006-11-03 04:25:38 +0000 (Fri, 03 Nov 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Pass the original color down to the appropriate sink instead of making it all red. Also stop playing sounds with the BigWigs sink.
+------------------------------------------------------------------------
+r34 | rabbit | 2006-10-30 16:50:50 +0000 (Mon, 30 Oct 2006) | 3 lines
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster:
+ * Added berserk option that intercepts all messages sent to UIErrorsFrame disregarding the filter.
+ * Triggers the events ErrorMonster_MessageFlushed(message) when a message should be flushed and ErrorMonster_Message(message) when a message has passed throttle and is being directed to a display sink.
+------------------------------------------------------------------------
+r33 | rabbit | 2006-10-30 15:42:18 +0000 (Mon, 30 Oct 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Errors flushed to a ChatFrame are added with the ID "ErrorMonster", so that you can hook :AddMessage and display these errors according to your own desire.
+------------------------------------------------------------------------
+r32 | rabbit | 2006-10-30 15:40:54 +0000 (Mon, 30 Oct 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Can use ChatFrame1-10 as the sink.
+------------------------------------------------------------------------
+r31 | rabbit | 2006-10-30 05:21:21 +0000 (Mon, 30 Oct 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Can now throttle error output if filtered through a non-null sink. Default is no throttling.
+------------------------------------------------------------------------
+r30 | rabbit | 2006-10-29 23:00:58 +0000 (Sun, 29 Oct 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: Can now also optionally redirect errors to SCT, SCTM, BigWigs, MSBT and FCT.
+------------------------------------------------------------------------
+r29 | rabbit | 2006-10-22 04:25:23 +0000 (Sun, 22 Oct 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: TBC-compatible.
+------------------------------------------------------------------------
+r28 | rabbit | 2006-10-21 03:10:24 +0000 (Sat, 21 Oct 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+   M /tmp/trunk/ErrorMonster/libs
+
+ErrorMonster: AceHook-2.1.
+------------------------------------------------------------------------
+r27 | rabbit | 2006-10-19 01:05:11 +0000 (Thu, 19 Oct 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+   M /tmp/trunk/ErrorMonster/libs
+
+ErrorMonster: AceLocale-2.2.
+------------------------------------------------------------------------
+r26 | rabbit | 2006-10-15 02:37:21 +0000 (Sun, 15 Oct 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: Use pairs(...).
+------------------------------------------------------------------------
+r25 | kebinusan | 2006-10-01 11:39:30 +0000 (Sun, 01 Oct 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/libs
+
+More externals fixes
+------------------------------------------------------------------------
+r24 | kergoth | 2006-09-30 22:58:37 +0000 (Sat, 30 Sep 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+Reversion is fun!
+------------------------------------------------------------------------
+r23 | kergoth | 2006-09-30 22:47:50 +0000 (Sat, 30 Sep 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+Continuing the adjustment to use svn:eol-style of native on files to avoid line ending issues.
+------------------------------------------------------------------------
+r22 | nevcairiel | 2006-09-26 16:40:20 +0000 (Tue, 26 Sep 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/libs
+
+Externals: D was so short, so E as well now.
+------------------------------------------------------------------------
+r21 | mikma | 2006-09-25 08:01:04 +0000 (Mon, 25 Sep 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster: 'OMG a bear' ... added more errors to skip
+------------------------------------------------------------------------
+r20 | rabbit | 2006-09-09 22:57:50 +0000 (Sat, 09 Sep 2006) | 4 lines
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+
+ErrorMonster:
+ * Add more default filters.
+ * Update AceHooking.
+ * Tab/space cleanup.
+------------------------------------------------------------------------
+r19 | rabbit | 2006-08-31 01:16:11 +0000 (Thu, 31 Aug 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: Fix all known problems and get a ZIP made.
+------------------------------------------------------------------------
+r15 | rabbit | 2006-07-31 23:54:01 +0000 (Mon, 31 Jul 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMessage: Added Ace2 as OptionalDeps.
+------------------------------------------------------------------------
+r14 | rabbit | 2006-07-30 17:36:12 +0000 (Sun, 30 Jul 2006) | 1 line
+Changed paths:
+   M /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: TOC update.
+------------------------------------------------------------------------
+r13 | rabbit | 2006-07-30 17:31:01 +0000 (Sun, 30 Jul 2006) | 1 line
+Changed paths:
+   A /tmp/trunk/ErrorMonster/libs
+
+ErrorMonster: Added svn externals for Ace2.
+------------------------------------------------------------------------
+r12 | rabbit | 2006-07-30 17:23:46 +0000 (Sun, 30 Jul 2006) | 1 line
+Changed paths:
+   A /tmp/trunk/ErrorMonster
+   A /tmp/trunk/ErrorMonster/ErrorMonster-enUS.lua
+   A /tmp/trunk/ErrorMonster/ErrorMonster.lua
+   A /tmp/trunk/ErrorMonster/ErrorMonster.toc
+
+ErrorMonster: Initial import of Ace2'ed RogueSpam. Does not work yet, needs externals and stuff.
+------------------------------------------------------------------------

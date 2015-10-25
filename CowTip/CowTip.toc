@@ -1,0 +1,27 @@
+﻿## Interface: 20400
+## Title: CowTip 3.0
+## Notes: Tooltip of awesomeness. Moo. It'll graze your pasture.
+## Notes-zhTW: 厲害的提示訊息插件。哞，它會在你的牧場上吃草。
+## Notes-frFR: Infobulles personnalisées. Meuh. J'aime regarder les train passer.
+## Author: ckknight
+## X-eMail: ckknight AT gmail DOT com
+## X-Website: http://www.wowace.com/
+## X-Category: Interface Enhancements
+## SavedVariables: CowTipDB
+## OptionalDeps: LibRock-1.0, RangeCheck-1.0, LibTalentQuery-1.0
+## X-Embeds: LibRock-1.0, LibRockConsole-1.0, LibRockConfig-1.0, LibRockDB-1.0, LibRockEvent-1.0, LibRockLocale-1.0, LibRockHook-1.0, LibRockModuleCore-1.0, LibRockTimer-1.0, LibDogTag-2.0, LibDogTag-3.0, LibDogTag-Unit-3.0, LibSharedMedia-2.0, LibTalentQuery-1.0
+## X-WoWIPortal: ckknight
+## X-License: GPL v2 or later
+## X-Donate: PayPal:ckknight AT gmail DOT com
+## X-IssueTracker: Wowace:10020
+
+embeds.xml
+
+CowTip.lua
+Appearance\Appearance.lua
+Fade\Fade.lua
+HealthBar\HealthBar.lua
+Position\Position.lua
+PowerBar\PowerBar.lua
+RaidTargetIcon\RaidTargetIcon.lua
+Text\Text.lua

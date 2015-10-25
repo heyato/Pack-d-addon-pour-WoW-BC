@@ -1,0 +1,37 @@
+------------------------------------------------------------------------
+r45988 | ammo | 2007-08-08 12:26:05 +0200 (Wed, 08 Aug 2007) | 3 lines
+Changed paths:
+   M /trunk/CandyBar/CandyBar-2.0/CandyBar-2.0.lua
+
+CandyBar-2.0: zoom icon texture a tad
+~whalefu punkie`
+
+------------------------------------------------------------------------
+r45051 | gnarfoz | 2007-07-28 05:54:45 +0200 (Sat, 28 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/CandyBar/CandyBar-2.0/CandyBar-2.0.lua
+
+CandyBar - 0.1 for slow updates is really quite jerky, sped up a bit again (should still serve it's purpose)
+------------------------------------------------------------------------
+r44127 | rabbit | 2007-07-18 23:57:42 +0200 (Wed, 18 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/CandyBar/CandyBar-2.0/CandyBar-2.0.lua
+
+CandyBar: All methods that accepted paintchips tokens now also accept RGB pairs, like :SetBackgroundColor("barid", "white", 0.5) -> :SetBackgroundColor("barid", 1, 1, 1, 0.5). Probably needs some cleanup, not quite sure I got the gradient stuff right either. CandyBar-2.0 no longer requires PaintChips-2.0 as long as you use RGB values.
+------------------------------------------------------------------------
+r43836 | mikk | 2007-07-15 14:16:07 +0200 (Sun, 15 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/CandyBar/CandyBar-2.0/CandyBar-2.0.lua
+
+CandyBar: getArgs/setArgs will now handle nil arguments gracefully. See http://www.wowwiki.com/getArgs
+
+------------------------------------------------------------------------
+r43765 | mikk | 2007-07-14 11:14:47 +0200 (Sat, 14 Jul 2007) | 4 lines
+Changed paths:
+   M /trunk/CandyBar/CandyBar-2.0/CandyBar-2.0.lua
+
+CandyBar: 
+- Some size optimizations
+- Add :SetOnSizeGroup() callback - useful if you want to adjust a window based on current group size
+- Reduce update speed for bars with >11 secs to go -- a dozen bars running at full speed do produce a measurable CPU crunch when updated every frame. Possibly a part of the load is just forcing excessive frame system updates due to the :SetWidth()s
+------------------------------------------------------------------------

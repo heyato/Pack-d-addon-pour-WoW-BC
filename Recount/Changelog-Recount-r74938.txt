@@ -1,0 +1,446 @@
+------------------------------------------------------------------------
+r74938 | elsia | 2008-05-23 11:52:58 -0400 (Fri, 23 May 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/GUI_Config.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/colors.lua
+
+Recount:
+- Class and bar colors now also have editable alpha channel via the color picker.
+- Color pickers will now show on the open side of the config window, rather than always on the left side.
+------------------------------------------------------------------------
+r74705 | elsia | 2008-05-21 17:54:18 -0400 (Wed, 21 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/GUI_Main.lua
+
+Recount:
+- Fix bug when not retaining after sync.
+------------------------------------------------------------------------
+r74578 | elsia | 2008-05-20 17:00:22 -0400 (Tue, 20 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Fixed death log reporting and new death log event entry text formating.
+------------------------------------------------------------------------
+r73529 | ananhaid | 2008-05-11 22:19:36 -0400 (Sun, 11 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-zhCN.lua
+
+Recount:
+- zhCN update.
+------------------------------------------------------------------------
+r73484 | elsia | 2008-05-11 15:25:06 -0400 (Sun, 11 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Recount.lua
+
+Recount:
+- Bandaid for retention check of pets after a sync.
+------------------------------------------------------------------------
+r73442 | elsia | 2008-05-11 04:40:00 -0400 (Sun, 11 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/LazySync.lua
+
+Recount:
+- Detect players from other realms and avoid sending syncs to them.
+------------------------------------------------------------------------
+r73415 | 7destiny | 2008-05-10 22:33:43 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-koKR.lua
+
+Recount:
+- koKR Update
+------------------------------------------------------------------------
+r73413 | cwdg | 2008-05-10 21:49:44 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-zhCN.lua
+
+Recount:
+- update zhCN
+------------------------------------------------------------------------
+r73364 | whyv | 2008-05-10 17:18:08 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-zhTW.lua
+
+Recount:
+- update zhTW
+------------------------------------------------------------------------
+r73362 | elsia | 2008-05-10 16:55:40 -0400 (Sat, 10 May 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/deletion.lua
+
+Recount:
+- Only do auto-delete on zone when we are collecting data for that zone type.
+
+------------------------------------------------------------------------
+r73358 | elsia | 2008-05-10 15:49:15 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/GUI_Config.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/locales/Recount-enUS.lua
+   M /trunk/Recount/zonefilters.lua
+
+Recount:
+- Added "hide when not collecting data" toggle to config.
+------------------------------------------------------------------------
+r73298 | elsia | 2008-05-10 05:58:13 -0400 (Sat, 10 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Added handling of SPELL_EXTRA_ATTACKS. The proc ability will now show in parenthesis of the damage ability that got proc'd by it. E.g. Melee (Windfury Attack).
+------------------------------------------------------------------------
+r73286 | elsia | 2008-05-10 04:47:57 -0400 (Sat, 10 May 2008) | 4 lines
+Changed paths:
+   M /trunk/Recount/GUI_Detail.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Fixed bug that blizz's combatlog filters weren't always set. (Code from Grayhoof's Eavesdrop2)
+- Fixed that the player at times was classifed as not in her own group. This caused that in odd circumstances no fight segmentation happened when soloing.
+- DeathLog entries are now sorted in inverse chronolocial order, which means that the most recent death will be displayed by default when opening the log.
+------------------------------------------------------------------------
+r73140 | elsia | 2008-05-08 16:30:31 -0400 (Thu, 08 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/LazySync.lua
+
+Recount:
+- !Buggrabber sucks: MinimumVersion -> MinimumV
+------------------------------------------------------------------------
+r73139 | elsia | 2008-05-08 16:27:32 -0400 (Thu, 08 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/GUI_Detail.lua
+
+Recount:
+- Fix to reporting under added count variable in upper detail view.
+------------------------------------------------------------------------
+r73124 | elsia | 2008-05-08 13:08:38 -0400 (Thu, 08 May 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/GUI_Detail.lua
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- More fixes to the deathlog, scatter plot for events in the death graph should work again, as should incoming/outgoing filters.
+
+------------------------------------------------------------------------
+r73118 | elsia | 2008-05-08 12:25:19 -0400 (Thu, 08 May 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/LazySync.lua
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Further improvements/fixes to death log
+- Finally fixed bug in lazy sync line 581.
+------------------------------------------------------------------------
+r73072 | elsia | 2008-05-08 04:21:02 -0400 (Thu, 08 May 2008) | 4 lines
+Changed paths:
+   M /trunk/Recount/GUI_Detail.lua
+   M /trunk/Recount/Recount_Modes.lua
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Increased width of detail window and fixed layouting of list, summary and death views
+- Minor fixes/improvements to death view, still needs more work.
+
+------------------------------------------------------------------------
+r73062 | elsia | 2008-05-08 02:05:20 -0400 (Thu, 08 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/LazySync.lua
+
+Recount:
+- Fixed further bug with boss syncing.
+------------------------------------------------------------------------
+r73056 | phanx | 2008-05-08 00:33:10 -0400 (Thu, 08 May 2008) | 1 line
+Changed paths:
+   M /trunk/Recount/LazySync.lua
+
+Recount: Fix for line 581 error in LazySync.lua
+------------------------------------------------------------------------
+r73023 | elsia | 2008-05-07 17:23:26 -0400 (Wed, 07 May 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/LazySync.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/Tracker.lua
+   M /trunk/Recount/debug.lua
+
+Recount:
+- Possible bug fix to lazy sync code
+- Lazy sync code instrumented for debugging purposes. To help debug create a new chat tab and name it "Debug", report all content, specially if you get "anomaly" messages.
+------------------------------------------------------------------------
+r72991 | elsia | 2008-05-07 12:52:51 -0400 (Wed, 07 May 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/GUI_Detail.lua
+
+Recount:
+- Tweaking of layout of details count view in upper detail list.
+- Fixed scroll bar of detail lists to fit inside the window again.
+------------------------------------------------------------------------
+r72972 | elsia | 2008-05-07 10:17:59 -0400 (Wed, 07 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/Recount_Modes.lua
+
+Recount:
+- Fixes related to threat module support.
+------------------------------------------------------------------------
+r72961 | elsia | 2008-05-07 07:46:38 -0400 (Wed, 07 May 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/Recount.lua
+
+Recount:
+- Lengthened minimal combat length for retention. This should prevent critter 1-shots from being stored as separate fight segments.
+
+------------------------------------------------------------------------
+r72960 | elsia | 2008-05-07 07:40:10 -0400 (Wed, 07 May 2008) | 4 lines
+Changed paths:
+   M /trunk/Recount/GUI_Detail.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/Recount_Modes.lua
+
+Recount:
+- Added spell count for damage/dps/heals to upper detail view.
+- Fixed that main window quick icons are properly initialized when copying a profile.
+
+------------------------------------------------------------------------
+r72627 | elsia | 2008-05-04 07:58:56 -0400 (Sun, 04 May 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/Recount.lua
+
+Recount:
+- Disabled error message for other server pets on BGs.
+
+------------------------------------------------------------------------
+r72555 | elsia | 2008-05-03 14:37:23 -0400 (Sat, 03 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/GUI_Main.lua
+
+Recount:
+- Check if we get proper bar color to register.
+------------------------------------------------------------------------
+r72553 | elsia | 2008-05-03 14:33:44 -0400 (Sat, 03 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Recount.lua
+
+Recount:
+- Prevent removing guardians from the GUID stack if none has been created yet.
+------------------------------------------------------------------------
+r72543 | elsia | 2008-05-03 13:30:42 -0400 (Sat, 03 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Recount.lua
+
+Recount:
+- Set proper default for MainWindowMode.
+------------------------------------------------------------------------
+r72525 | elsia | 2008-05-03 10:21:05 -0400 (Sat, 03 May 2008) | 5 lines
+Changed paths:
+   M /trunk/Recount/GUI_Main.lua
+   M /trunk/Recount/LazySync.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/Tracker.lua
+   M /trunk/Recount/roster.lua
+
+Recount:
+- Guardian's of party members should now be properly identified and linked to their owners.
+- Fixed bug in timedata display
+- Fixed bug in death tracking for non-retained combatants.
+- Performance improvments and cleanup to roster code.
+------------------------------------------------------------------------
+r72405 | scorpio0920 | 2008-05-02 03:08:06 -0400 (Fri, 02 May 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/locales/Recount-zhTW.lua
+
+Recount:
+- Update zhTW localization.
+------------------------------------------------------------------------
+r72353 | elsia | 2008-05-01 17:05:44 -0400 (Thu, 01 May 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/Bindings.xml
+   M /trunk/Recount/GUI_Graph.lua
+
+Recount:
+- Remove bogus keybinding
+- Fix two nil errors in graph range handling
+------------------------------------------------------------------------
+r72219 | elsia | 2008-04-30 16:32:30 -0400 (Wed, 30 Apr 2008) | 6 lines
+Changed paths:
+   M /trunk/Recount/GUI_Main.lua
+   M /trunk/Recount/LazySync.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/Tracker.lua
+   M /trunk/Recount/roster.lua
+
+Recount:
+- Increased the space between bar border and font slightly.
+- Added very early combatant filter, there should now be no memory and minimal CPU use for combatant events that contain no retainable combatant.
+- Improved behavior of data collection filters (global and zone dependent)
+- Added safeguards for nil-source healing events.
+- Performance improvement when Checking combat.
+------------------------------------------------------------------------
+r72188 | elsia | 2008-04-30 10:59:35 -0400 (Wed, 30 Apr 2008) | 5 lines
+Changed paths:
+   M /trunk/Recount/Fights.lua
+   M /trunk/Recount/GUI_Detail.lua
+   M /trunk/Recount/GUI_Main.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/Recount_Modes.lua
+
+Recount:
+- Now stores last selected fight in saved variables and restores it between sessions.
+- Stores last selected main window view in saved variables and restores it between sessions.
+- Properly resets selected fight to overall data if the last viewed fight was deleted.
+
+------------------------------------------------------------------------
+r72182 | elsia | 2008-04-30 09:29:06 -0400 (Wed, 30 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/Tracker.lua
+
+Recount:
+- Fixed bug where block, miss, parry, dodge and other miss types weren't recorded for the detail summary under certain conditions.
+
+------------------------------------------------------------------------
+r72070 | elsia | 2008-04-29 09:40:39 -0400 (Tue, 29 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Recount.toc
+
+Recount:
+- Removed libstub and cbh from x-embeds.
+------------------------------------------------------------------------
+r71899 | elsia | 2008-04-28 02:30:03 -0400 (Mon, 28 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/Recount_Modes.lua
+
+Recount:
+- Non-damage-dealing pets and totems no longer contribute to active time in merged pet damage calculation.
+
+------------------------------------------------------------------------
+r71896 | elsia | 2008-04-28 02:10:41 -0400 (Mon, 28 Apr 2008) | 4 lines
+Changed paths:
+   M /trunk/Recount/GUI_Config.lua
+   M /trunk/Recount/GUI_Main.lua
+
+Recount:
+- Increased maximum row height to 35 (from 24) for extra legibility.
+- Reduced the padding space between bar border and font for large fontsize.
+
+------------------------------------------------------------------------
+r71666 | elsia | 2008-04-26 15:37:45 -0400 (Sat, 26 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/GUI_Main.lua
+
+Recount:
+- Fix for bar length in main window.
+------------------------------------------------------------------------
+r71621 | elsia | 2008-04-26 07:52:25 -0400 (Sat, 26 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/GUI_Main.lua
+
+Recount:
+- Fixed bug when reporting.
+------------------------------------------------------------------------
+r71617 | elsia | 2008-04-26 07:20:37 -0400 (Sat, 26 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/GUI_Config.lua
+   M /trunk/Recount/GUI_Detail.lua
+   M /trunk/Recount/GUI_Graph.lua
+   M /trunk/Recount/GUI_Main.lua
+   M /trunk/Recount/GUI_Realtime.lua
+   M /trunk/Recount/Recount.lua
+   M /trunk/Recount/Recount_Modes.lua
+   M /trunk/Recount/Tracker.lua
+   M /trunk/Recount/WindowOrder.lua
+   M /trunk/Recount/colors.lua
+   M /trunk/Recount/deletion.lua
+
+Recount:
+- Fixed missing locals and var name typos throughout.
+
+------------------------------------------------------------------------
+r71613 | elsia | 2008-04-26 06:32:20 -0400 (Sat, 26 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Recount.lua
+
+Recount:
+- Fixed missing locals. This caused global var taints. Thanks to Zeksie for finding these.
+------------------------------------------------------------------------
+r71513 | elsia | 2008-04-25 15:23:36 -0400 (Fri, 25 Apr 2008) | 3 lines
+Changed paths:
+   M /trunk/Recount/GUI_Main.lua
+
+Recount:
+- If total damage display is active, report will also report the total line.
+
+------------------------------------------------------------------------
+r71509 | elsia | 2008-04-25 15:08:28 -0400 (Fri, 25 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/GUI_Realtime.lua
+
+Recount:
+- Commit possible fix for realtime UpdateTitle bug that I cannot reproduce.
+------------------------------------------------------------------------
+r71391 | phanx | 2008-04-24 22:37:53 -0400 (Thu, 24 Apr 2008) | 1 line
+Changed paths:
+   M /trunk/Recount/roster.lua
+
+Recount: Stop spamming player names in chat.
+------------------------------------------------------------------------
+r71331 | elsia | 2008-04-24 16:38:34 -0400 (Thu, 24 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/roster.lua
+
+Recount:
+- Also bandaided player names starting with "target*"
+------------------------------------------------------------------------
+r71323 | elsia | 2008-04-24 16:16:34 -0400 (Thu, 24 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/roster.lua
+
+Recount:
+- Added bandaid for players whose name starts with Pet*, Raid*, Party* or Player* due to blizz's unitid calls bug for those.
+------------------------------------------------------------------------
+r71115 | elsia | 2008-04-23 15:12:41 -0400 (Wed, 23 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/GUI_Config.lua
+   M /trunk/Recount/WindowOrder.lua
+
+Recount:
+- Config frame will now be properly movable when window lock is checked on startup.
+------------------------------------------------------------------------
+r71112 | elsia | 2008-04-23 14:56:10 -0400 (Wed, 23 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/WindowOrder.lua
+
+Recount:
+- Lock window will now only lock main and realtime windows. Config, detail and graph windows remain movable, as these windows don't have their position (re)stored anyway.
+------------------------------------------------------------------------
+r71110 | elsia | 2008-04-23 14:49:42 -0400 (Wed, 23 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/GUI_Realtime.lua
+
+Recount:
+- Added debug trace for realtime window titleupdate bug.
+------------------------------------------------------------------------
+r71085 | elsia | 2008-04-23 12:21:31 -0400 (Wed, 23 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Recount.lua
+
+Recount:
+- Added name field to options.
+------------------------------------------------------------------------
+r71083 | elsia | 2008-04-23 12:17:47 -0400 (Wed, 23 Apr 2008) | 4 lines
+Changed paths:
+   M /trunk/Recount/GUI_Realtime.lua
+   M /trunk/Recount/Recount.lua
+
+Recount:
+- Options will now properly use subtree's in blizz's config ui. Additional cleanup.
+- New realtime windows have their grip buttons hidden if locked.
+
+------------------------------------------------------------------------
+r70960 | elsia | 2008-04-22 17:04:28 -0400 (Tue, 22 Apr 2008) | 2 lines
+Changed paths:
+   M /trunk/Recount/Fights.lua
+
+Recount:
+- Cleanup and bug fix for fight data storing switch.
+------------------------------------------------------------------------

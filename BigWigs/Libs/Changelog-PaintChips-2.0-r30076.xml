@@ -1,0 +1,7 @@
+------------------------------------------------------------------------
+r30076 | rabbit | 2007-03-13 04:43:04 +0100 (Tue, 13 Mar 2007) | 1 line
+Changed paths:
+   M /trunk/PaintChipsLib/PaintChips-2.0/PaintChips-2.0.lua
+
+.PaintChips-2.0: Colors can be accessed directly on the library now, like AceLibrary("PaintChips-2.0")["white"].
+------------------------------------------------------------------------

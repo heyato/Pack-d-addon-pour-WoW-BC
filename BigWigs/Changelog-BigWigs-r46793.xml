@@ -1,0 +1,624 @@
+------------------------------------------------------------------------
+r46793 | rabbit | 2007-08-17 18:38:45 +0200 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Core.lua
+
+BigWigs: Core: Better descriptions for Plugins and Extras.
+------------------------------------------------------------------------
+r46780 | rabbit | 2007-08-17 13:49:15 +0200 (Fri, 17 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Plugins/RaidIcon.lua
+
+BigWigs: RaidIcon: Put the raid icon choices on the top menu, which makes the code a bit bigger, but looks nicer.
+------------------------------------------------------------------------
+r46716 | crowleyaj | 2007-08-16 20:23:57 +0200 (Thu, 16 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/SC/Leotheras.lua
+
+BigWigs: SC/Leotheras.lua:
+ - fixed deDE localization (thanks to Calton)
+------------------------------------------------------------------------
+r46713 | pettigrow | 2007-08-16 19:50:51 +0200 (Thu, 16 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/BigWigs_BlackTemple.toc
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+   M /trunk/BigWigs/BlackTemple/Teron.lua
+   M /trunk/BigWigs/Extras/CustomBar.lua
+   M /trunk/BigWigs/Extras/Proximity.lua
+   M /trunk/BigWigs/Extras/Test.lua
+   M /trunk/BigWigs/Extras/Tranq.lua
+   M /trunk/BigWigs/Hyjal/BigWigs_Hyjal.toc
+   M /trunk/BigWigs/Prototype.lua
+
+BigWigs: frFR Update
+------------------------------------------------------------------------
+r46656 | funkydude | 2007-08-15 23:01:38 +0200 (Wed, 15 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan: add some sync throttles
+------------------------------------------------------------------------
+r46652 | saroz | 2007-08-15 20:09:08 +0200 (Wed, 15 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/SC/Lurker.lua
+
+BigWigs: Lurker - Change message sound and color for spout
+------------------------------------------------------------------------
+r46472 | funkydude | 2007-08-13 23:06:48 +0200 (Mon, 13 Aug 2007) | 3 lines
+Changed paths:
+   M /trunk/BigWigs/SC/Vashj.lua
+
+BigWigs: SC/Vashj:
+- fixed and matched phase 2 yell
+- now using a yell for phase 3
+------------------------------------------------------------------------
+r46462 | funkydude | 2007-08-13 20:07:27 +0200 (Mon, 13 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/BigWigs_BlackTemple.toc
+   D /trunk/BigWigs/BlackTemple/BlackTempleBeta.lua
+   M /trunk/BigWigs/Hyjal/BigWigs_Hyjal.toc
+   D /trunk/BigWigs/Hyjal/HyjalBeta.lua
+   M /trunk/BigWigs/modules.xml
+
+BigWigs: remove BT and HS beta
+------------------------------------------------------------------------
+r46430 | pettigrow | 2007-08-13 13:06:35 +0200 (Mon, 13 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+   M /trunk/BigWigs/Hyjal/Archimonde.lua
+
+BigWigs: frFR Update
+------------------------------------------------------------------------
+r46407 | sayclub | 2007-08-13 06:04:30 +0200 (Mon, 13 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/Hyjal/Archimonde.lua
+
+BigWigs: Hyjal/Archimonde:
+- Fixed localization koKR
+------------------------------------------------------------------------
+r46403 | funkydude | 2007-08-13 05:43:51 +0200 (Mon, 13 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Hyjal/Archimonde.lua
+
+BigWigs: Hyjal/Archimonde: adjust timers somewhat for hotfix
+------------------------------------------------------------------------
+r46341 | scorpio0920 | 2007-08-12 12:18:38 +0200 (Sun, 12 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Prototype.lua
+
+BigWigs: Fixed typo for zhTW.
+------------------------------------------------------------------------
+r46336 | cwdg | 2007-08-12 10:06:21 +0200 (Sun, 12 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Prototype.lua
+
+BigWigs: update zhTW local for PT
+------------------------------------------------------------------------
+r46151 | cronan | 2007-08-10 07:25:03 +0200 (Fri, 10 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: 
+- Update koKR localization
+------------------------------------------------------------------------
+r46126 | funkydude | 2007-08-09 18:46:49 +0200 (Thu, 09 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan: fixes
+------------------------------------------------------------------------
+r46043 | funkydude | 2007-08-08 22:53:44 +0200 (Wed, 08 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+
+BigWigs: BlackTemple/Souls: add curse of tongues trigger
+------------------------------------------------------------------------
+r45998 | sayclub | 2007-08-08 15:00:32 +0200 (Wed, 08 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan:
+- Updated localization koKR
+------------------------------------------------------------------------
+r45984 | sayclub | 2007-08-08 11:29:03 +0200 (Wed, 08 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan:
+- Updated localization koKR
+------------------------------------------------------------------------
+r45947 | sayclub | 2007-08-08 01:11:13 +0200 (Wed, 08 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/SC/Hydross.lua
+
+BigWigs: SC/Hydross: 
+- Fixed localization koKR
+------------------------------------------------------------------------
+r45944 | funkydude | 2007-08-08 00:28:47 +0200 (Wed, 08 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/bigwigslod.bat
+
+BigWigs: properly remove modules.xml
+------------------------------------------------------------------------
+r45943 | funkydude | 2007-08-08 00:21:05 +0200 (Wed, 08 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BigWigs.toc
+   D /trunk/BigWigs/Plugins/Modules.xml
+   M /trunk/BigWigs/bigwigslod.bat
+   M /trunk/BigWigs/bigwigslod.sh
+   A /trunk/BigWigs/modules.xml
+
+BigWigs: move modules.xml to root for WAU clearing, also remove via lod scripts
+------------------------------------------------------------------------
+r45921 | gamefaq | 2007-08-07 21:56:33 +0200 (Tue, 07 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+   M /trunk/BigWigs/BlackTemple/Najentus.lua
+
+BigWigs: Fix for zhCN Translations from cwdg last commit
+------------------------------------------------------------------------
+r45916 | cwdg | 2007-08-07 21:23:08 +0200 (Tue, 07 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/BigWigs_BlackTemple.toc
+   M /trunk/BigWigs/BlackTemple/Council.lua
+   M /trunk/BigWigs/BlackTemple/Gurtogg.lua
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+   M /trunk/BigWigs/BlackTemple/Najentus.lua
+
+BigWigs: Add zhCN local.
+------------------------------------------------------------------------
+r45878 | pettigrow | 2007-08-07 12:49:51 +0200 (Tue, 07 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Gurtogg.lua
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+   M /trunk/BigWigs/BlackTemple/Najentus.lua
+   M /trunk/BigWigs/BlackTemple/Shahraz.lua
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+   M /trunk/BigWigs/BlackTemple/Supremus.lua
+   M /trunk/BigWigs/BlackTemple/Teron.lua
+   M /trunk/BigWigs/Outland/Doomwalker.lua
+
+BigWigs: frFR Update
+------------------------------------------------------------------------
+r45863 | sayclub | 2007-08-07 10:20:41 +0200 (Tue, 07 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan:
+- Updated localization koKR
+------------------------------------------------------------------------
+r45862 | sayclub | 2007-08-07 10:02:47 +0200 (Tue, 07 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple:
+- Updated localization koKR
+------------------------------------------------------------------------
+r45853 | funkydude | 2007-08-07 08:00:14 +0200 (Tue, 07 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan: shear, phase, enrage, flameburst warnings
+------------------------------------------------------------------------
+r45848 | tsigo | 2007-08-07 06:30:42 +0200 (Tue, 07 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan: Revert last commit for funky.
+------------------------------------------------------------------------
+r45847 | tsigo | 2007-08-07 06:27:01 +0200 (Tue, 07 Aug 2007) | 4 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan:
+- Phase 3 and 4 Demon/Normal phase warnings.
+- Shadow Demon timer after Demon switch.
+- Needs locale updates.
+------------------------------------------------------------------------
+r45717 | pettigrow | 2007-08-04 17:16:29 +0200 (Sat, 04 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Najentus.lua
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+   M /trunk/BigWigs/BlackTemple/Supremus.lua
+   M /trunk/BigWigs/Hyjal/Archimonde.lua
+   M /trunk/BigWigs/Karazhan/Terestian.lua
+   M /trunk/BigWigs/TheEye/Reaver.lua
+
+BigWigs: frFR Update
+------------------------------------------------------------------------
+r45711 | cronan | 2007-08-04 15:50:35 +0200 (Sat, 04 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/Karazhan/Terestian.lua
+
+BigWigs: 
+- Update koKR
+------------------------------------------------------------------------
+r45690 | gamefaq | 2007-08-04 11:07:02 +0200 (Sat, 04 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Karazhan/Terestian.lua
+
+BigWigs: Karazhan/Terestian: Typo Fix at Line 243
+------------------------------------------------------------------------
+r45683 | funkydude | 2007-08-04 06:18:22 +0200 (Sat, 04 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Karazhan/Terestian.lua
+
+BigWigs: Karazhan/Terestian: Remove the sacrifice bar if the person is freed from it
+------------------------------------------------------------------------
+r45673 | funkydude | 2007-08-04 05:20:38 +0200 (Sat, 04 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Shahraz.lua
+
+BigWigs: BlackTemple/Shahraz: add 10 minute enrage
+------------------------------------------------------------------------
+r45612 | funkydude | 2007-08-03 03:37:35 +0200 (Fri, 03 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Council.lua
+
+BigWigs: BlackTemple/Council: Remove Flamestrike warnings(apparently useless)
+------------------------------------------------------------------------
+r45549 | pettigrow | 2007-08-02 01:46:24 +0200 (Thu, 02 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Council.lua
+   M /trunk/BigWigs/BlackTemple/Najentus.lua
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+
+BigWigs: BlackTemple: frFR Update
+------------------------------------------------------------------------
+r45541 | sayclub | 2007-08-02 00:00:15 +0200 (Thu, 02 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: 
+ - Updated localization koKR
+------------------------------------------------------------------------
+r45482 | funkydude | 2007-08-01 05:13:21 +0200 (Wed, 01 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan: bugfix
+------------------------------------------------------------------------
+r45479 | fenlis | 2007-08-01 04:10:18 +0200 (Wed, 01 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/SC/Karathress.lua
+
+BigWigs: 
+ - Updated localization koKR
+------------------------------------------------------------------------
+r45478 | sayclub | 2007-08-01 04:00:54 +0200 (Wed, 01 Aug 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: 
+ - Fixed localization koKR
+------------------------------------------------------------------------
+r45477 | funkydude | 2007-08-01 03:57:53 +0200 (Wed, 01 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Council.lua
+
+BigWigs: BlackTemple/Council: add Flamestrike target alerts
+------------------------------------------------------------------------
+r45476 | funkydude | 2007-08-01 03:42:26 +0200 (Wed, 01 Aug 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+
+BigWigs: BlackTemple/Souls: add a 10 second Soul Scream cooldown bar
+------------------------------------------------------------------------
+r45423 | pettigrow | 2007-07-31 17:58:40 +0200 (Tue, 31 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+   M /trunk/BigWigs/SC/Karathress.lua
+   M /trunk/BigWigs/SC/Lurker.lua
+   M /trunk/BigWigs/SC/Morogrim.lua
+   M /trunk/BigWigs/SC/Vashj.lua
+
+BigWigs: frFR Update
+------------------------------------------------------------------------
+r45417 | sayclub | 2007-07-31 16:20:38 +0200 (Tue, 31 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/SC/Morogrim.lua
+
+BigWigs: 
+ - Updated localization koKR
+------------------------------------------------------------------------
+r45359 | fenlis | 2007-07-31 08:22:08 +0200 (Tue, 31 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Council.lua
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: 
+ - Updated localization koKR
+------------------------------------------------------------------------
+r45357 | tsigo | 2007-07-31 07:23:42 +0200 (Tue, 31 Jul 2007) | 5 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Council.lua
+
+BigWigs: BlackTemple/Council:
+- Fix the Circle of Healing interrupt sync; needs locale updates.
+- Group options by council member.
+- Cancel spell immune bar when Malande gains melee immune and vice-versa; had some claims that these can overlap.
+- Add a Shield duration bar.
+------------------------------------------------------------------------
+r45342 | funkydude | 2007-07-31 05:05:30 +0200 (Tue, 31 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Gurtogg.lua
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+   M /trunk/BigWigs/Hyjal/Anetheron.lua
+   M /trunk/BigWigs/Hyjal/Azgalor.lua
+   M /trunk/BigWigs/Karazhan/Netherspite.lua
+   M /trunk/BigWigs/Karazhan/TheBigBadWolf.lua
+   M /trunk/BigWigs/Karazhan/WizardofOz.lua
+   M /trunk/BigWigs/Outland/Gruul.lua
+   M /trunk/BigWigs/SC/Lurker.lua
+   M /trunk/BigWigs/SC/Vashj.lua
+
+BigWigs: random tweaks
+------------------------------------------------------------------------
+r45327 | sayclub | 2007-07-31 01:06:26 +0200 (Tue, 31 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: 
+ - Updated localization koKR
+------------------------------------------------------------------------
+r45285 | chuanhsing | 2007-07-30 13:41:13 +0200 (Mon, 30 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Outland/Gruul.lua
+
+BigWigs: update zhTW
+------------------------------------------------------------------------
+r45258 | sayclub | 2007-07-30 05:54:28 +0200 (Mon, 30 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Council.lua
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: 
+ - Updated localization koKR
+------------------------------------------------------------------------
+r45228 | pettigrow | 2007-07-29 21:45:39 +0200 (Sun, 29 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/TheEye/Kaelthas.lua
+
+BigWigs: TheEye/Kaelthas: frFR Update
+------------------------------------------------------------------------
+r45136 | rabbit | 2007-07-29 00:32:42 +0200 (Sun, 29 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Plugins/Messages.lua
+
+BigWigs: Messages: Register ourselves as a Sink-1.0 sink.
+------------------------------------------------------------------------
+r44997 | funkydude | 2007-07-27 18:46:07 +0200 (Fri, 27 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Plugins/Bars.lua
+   M /trunk/BigWigs/Prototype.lua
+
+BigWigs: tweak to prevent possible future problems, revert if things break :|
+------------------------------------------------------------------------
+r44992 | funkydude | 2007-07-27 17:18:42 +0200 (Fri, 27 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Prototype.lua
+
+BigWigs: formatting fix
+------------------------------------------------------------------------
+r44991 | funkydude | 2007-07-27 17:16:36 +0200 (Fri, 27 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Plugins/Bars.lua
+   M /trunk/BigWigs/Prototype.lua
+
+BigWigs: minor speedups
+------------------------------------------------------------------------
+r44803 | rabbit | 2007-07-25 16:54:04 +0200 (Wed, 25 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BigWigs.toc
+   M /trunk/BigWigs/Libs
+   M /trunk/BigWigs/Plugins/Messages.lua
+   M /trunk/BigWigs/embeds.xml
+
+BigWigs: Use SinkLib for output.
+------------------------------------------------------------------------
+r44786 | sayclub | 2007-07-25 13:06:02 +0200 (Wed, 25 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/Hyjal/Azgalor.lua
+
+BigWigs: 
+ - Updated localization koKR
+------------------------------------------------------------------------
+r44785 | sayclub | 2007-07-25 13:03:12 +0200 (Wed, 25 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/SC/Leotheras.lua
+   M /trunk/BigWigs/SC/Morogrim.lua
+
+BigWigs: 
+ - Updated localization koKR
+------------------------------------------------------------------------
+r44740 | rabbit | 2007-07-24 17:23:18 +0200 (Tue, 24 Jul 2007) | 3 lines
+Changed paths:
+   M /trunk/BigWigs/Plugins/Bars.lua
+   M /trunk/BigWigs/Plugins/Sound.lua
+   M /trunk/BigWigs/Prototype.lua
+
+BigWigs:
+ * For Prototype:DelayedMessage, generate our own random ID per scheduled event, since AceEvent-2.0 is timebombed to remove the autogenerated IDs.
+ * 2 other random changes.
+------------------------------------------------------------------------
+r44724 | pettigrow | 2007-07-24 11:39:05 +0200 (Tue, 24 Jul 2007) | 3 lines
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/BigWigs_BlackTemple.toc
+   M /trunk/BigWigs/BlackTemple/Council.lua
+   M /trunk/BigWigs/BlackTemple/Gurtogg.lua
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+   M /trunk/BigWigs/BlackTemple/Najentus.lua
+   M /trunk/BigWigs/BlackTemple/Shahraz.lua
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+   M /trunk/BigWigs/BlackTemple/Supremus.lua
+   M /trunk/BigWigs/BlackTemple/Teron.lua
+   M /trunk/BigWigs/Plugins/Bars.lua
+   M /trunk/BigWigs/Plugins/Messages.lua
+
+BigWigs:
+- BlackTemple: frFR Update (incomplete - need yell triggers)
+- Plugins: frFR Update
+------------------------------------------------------------------------
+r44664 | tsigo | 2007-07-24 00:39:02 +0200 (Tue, 24 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+
+BigWigs: BlackTemple/Souls: pName tweak.
+------------------------------------------------------------------------
+r44659 | phyber | 2007-07-23 23:27:23 +0200 (Mon, 23 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/SC/Lurker.lua
+
+BigWigs:
+- SSC - Lurker: Fixed typo, posible -> possible.
+------------------------------------------------------------------------
+r44586 | tsigo | 2007-07-23 07:36:33 +0200 (Mon, 23 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Shahraz.lua
+
+BigWigs: BlackTemple/Shahraz: pName tweak.
+------------------------------------------------------------------------
+r44566 | funkydude | 2007-07-23 04:15:31 +0200 (Mon, 23 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Karazhan/Nightbane.lua
+   M /trunk/BigWigs/Outland/Magtheridon.lua
+   M /trunk/BigWigs/TheEye/Reaver.lua
+
+BigWigs: more formatting fixes
+------------------------------------------------------------------------
+r44565 | funkydude | 2007-07-23 04:06:23 +0200 (Mon, 23 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/SC/Lurker.lua
+
+BigWigs: SC/Lurker: fix formatting
+------------------------------------------------------------------------
+r44564 | funkydude | 2007-07-23 04:02:25 +0200 (Mon, 23 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Hyjal/Winterchill.lua
+
+BigWigs: Hyjal/Winterchill: commented out wrong deDE trigger (needs updated)
+------------------------------------------------------------------------
+r44562 | funkydude | 2007-07-23 03:08:51 +0200 (Mon, 23 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Council.lua
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+   M /trunk/BigWigs/BlackTemple/Teron.lua
+
+BigWigs: BlackTemple: tweaks
+------------------------------------------------------------------------
+r44454 | funkydude | 2007-07-22 02:31:23 +0200 (Sun, 22 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Hyjal/Archimonde.lua
+
+BigWigs: Hyjal/Archimonde: tweak
+------------------------------------------------------------------------
+r44424 | rabbit | 2007-07-21 14:34:16 +0200 (Sat, 21 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Options.lua
+
+BigWigs: Options: Fix Waterfall opening.
+------------------------------------------------------------------------
+r44376 | rabbit | 2007-07-21 01:11:09 +0200 (Sat, 21 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Plugins/Messages.lua
+
+BigWigs: Messages: Update for Parrot API changes.
+------------------------------------------------------------------------
+r44374 | rabbit | 2007-07-21 00:58:07 +0200 (Sat, 21 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Plugins/Messages.lua
+
+BigWigs: Messages: Support setting the Parrot scrollarea to use for output.
+------------------------------------------------------------------------
+r44368 | sayclub | 2007-07-21 00:30:15 +0200 (Sat, 21 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Shahraz.lua
+
+BigWigs: Updated koKR
+------------------------------------------------------------------------
+r44267 | tsigo | 2007-07-20 00:50:40 +0200 (Fri, 20 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+
+BigWigs: BT/Souls: Group toggle options by phase.
+------------------------------------------------------------------------
+r44201 | rabbit | 2007-07-19 17:04:38 +0200 (Thu, 19 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Plugins/Messages.lua
+
+BigWigs: Messages: Parrot support.
+------------------------------------------------------------------------
+r44169 | chuanhsing | 2007-07-19 08:09:11 +0200 (Thu, 19 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Karazhan/Moroes.lua
+   M /trunk/BigWigs/Karazhan/RomuloJulianne.lua
+
+BigWigs: update zhTW
+------------------------------------------------------------------------
+r44134 | rabbit | 2007-07-19 00:37:36 +0200 (Thu, 19 Jul 2007) | 4 lines
+Changed paths:
+   M /trunk/BigWigs/Plugins/Bars.lua
+
+BigWigs: Bars:
+ * Only register the candy bar groups once.
+ * Set the growup state and start point when the settings change, and not on every bar start.
+ * Remove debug print.
+------------------------------------------------------------------------
+r44129 | rabbit | 2007-07-19 00:03:37 +0200 (Thu, 19 Jul 2007) | 5 lines
+Changed paths:
+   M /trunk/BigWigs/Plugins/Bars.lua
+   M /trunk/BigWigs/Plugins/Colors.lua
+   M /trunk/BigWigs/Plugins/Messages.lua
+
+BigWigs:
+ * No longer register hex codes with PaintChips-2.0 and converts stuff back and forth, instead, colors are saved directly as RGB pairs and fed to the relevant displays with no conversion in-between.
+ * As a consequence, of course, other addons using PaintChips-2.0 will no longer have access to the BigWigs message priority colors by name -- if this is a problem, please let me know, and I'll register them.
+ * BigWigs still requires PaintChips-2.0, since we want to be able to say stuff like "White" and "Green" and others when we display messages as well.
+ * Needs testing, please provide me with some feedback on how it works.
+------------------------------------------------------------------------
+r44076 | sayclub | 2007-07-18 11:09:12 +0200 (Wed, 18 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Souls.lua
+
+BigWigs: Updated koKR
+------------------------------------------------------------------------
+r44025 | pettigrow | 2007-07-18 00:24:17 +0200 (Wed, 18 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/TheEye/Reaver.lua
+
+BigWigs: TheEye/Reaver: frFR Update
+------------------------------------------------------------------------
+r44013 | rabbit | 2007-07-17 23:00:07 +0200 (Tue, 17 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Plugins/Colors.lua
+
+BigWigs: Colors: Make color changes actually take effect without the user having to reload his UI. Module still needs some cleanup wrt paintchips usage, should be able to simplify the whole operation.
+------------------------------------------------------------------------
+r43996 | funkydude | 2007-07-17 14:06:29 +0200 (Tue, 17 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/BlackTemple/Illidan.lua
+
+BigWigs: BlackTemple/Illidan: add agonizing flames and shadow demons alert
+------------------------------------------------------------------------
+r43995 | funkydude | 2007-07-17 14:03:31 +0200 (Tue, 17 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Hyjal/Archimonde.lua
+
+BigWigs: Hyjal/Archimonde: add engage fear alert
+------------------------------------------------------------------------
+r43985 | samuelcup | 2007-07-17 10:53:07 +0200 (Tue, 17 Jul 2007) | 1 line
+Changed paths:
+   M /trunk/BigWigs/Karazhan/Nightbane.lua
+   M /trunk/BigWigs/Outland/Gruul.lua
+   M /trunk/BigWigs/Outland/Magtheridon.lua
+
+BigWigs: zhTW translation updated
+------------------------------------------------------------------------
+r43980 | jerry | 2007-07-17 09:42:34 +0200 (Tue, 17 Jul 2007) | 2 lines
+Changed paths:
+   M /trunk/BigWigs/SC/Vashj.lua
+
+BigWigs: bugfix Vashj charge trigger in frFR. Thanks antarus
+
+------------------------------------------------------------------------
